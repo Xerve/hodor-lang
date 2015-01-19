@@ -17,3 +17,19 @@ HODOR!     | Print the value at the data pointer
 HODOR?     | Receive the value for the data pointer through STDIN
 hodor?     | Equivelent to '[' in Brainfuck
 hodor!     | Equivelent to ']' in Brainfuck
+
+## Building Hodor
+
+To build, you will need make and gcc. Simply run 
+
+    make
+    
+## Running Hodor
+
+To run a file, use
+
+    ./hodor --hodor hodor/hodor.hodor
+    
+To run a string, use
+
+    ./hodor "HODORHODOR HODOR! HODOR? HODOR!"
